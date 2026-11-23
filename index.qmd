@@ -1,13 +1,29 @@
+
 ---
 title: "My Blog"
+
 listing:
-  contents: posts
+  contents:
+    - path: posts/cotacao-dolar/index.qmd
+      title: "Atividade 1"
+      description: "Cotação do Dólar por Período"
+
+    - path: posts/frota-onibus/index.qmd
+      title: "Atividade 2"
+      description: "Monitoramento de Frota de Ônibus"
+
+    - path: posts/regressao-linear/index.qmd
+      title: "Atividade 3"
+      description: "Regressão Linear"
+
   feed: true
   sort: "date asc"
   type: default
   categories: true
   sort-ui: false
   filter-ui: false
+
 page-layout: full
 title-block-banner: true
 ---
+

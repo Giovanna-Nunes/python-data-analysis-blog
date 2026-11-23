@@ -4,6 +4,8 @@ author: "Vrum vrum"
 date: "2025-11-19"
 categories: [ônibus, código]
 image: "frota.png"
+listing-item:
+  description: "Monitoramento de Frota de Ônibus"
 ---
 
 <h1 style="text-align: center;">Monitoramento de Frota de Ônibus</h1>

@@ -4,6 +4,8 @@ author: "lineee"
 date: "2025-11-20"
 categories: [linear, código]
 image: "RegressaoLinear.jpg"
+listing-item:
+  description: "Regressão Linear"
 ---
 
 <h1 style="text-align: center;">Regressão Linear</h1>

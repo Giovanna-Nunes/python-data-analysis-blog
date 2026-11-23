@@ -4,6 +4,8 @@ author: "Money money"
 date: "2025-11-18"
 categories: [dólar, código]
 image: "download.jpg"
+listing-item:
+  description: "Cotação do Dólar por Período"
 ---
 
 <h1 style="text-align: center;">Cotação do Dólar por Período</h1>
