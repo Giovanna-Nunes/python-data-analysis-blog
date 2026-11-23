@@ -1,1 +1,1 @@
-Sitemap: https://giovanna-nunes.github.io/MYBLOG/sitemap.xml
+Sitemap: https://giovanna-nunes.github.io/python-data-analysis-blog/sitemap.xml

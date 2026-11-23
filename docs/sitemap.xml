@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://giovanna-nunes.github.io/MYBLOG/sobre.html</loc>
+    <loc>https://giovanna-nunes.github.io/python-data-analysis-blog/sobre.html</loc>
     <lastmod>2026-11-23T01:09:01.339Z</lastmod>
   </url>
   <url>
-    <loc>https://giovanna-nunes.github.io/MYBLOG/posts/frota-onibus/index.html</loc>
+    <loc>https://giovanna-nunes.github.io/python-data-analysis-blog/posts/frota-onibus/index.html</loc>
     <lastmod>2026-11-23T02:59:47.286Z</lastmod>
   </url>
   <url>
-    <loc>https://giovanna-nunes.github.io/MYBLOG/index.html</loc>
+    <loc>https://giovanna-nunes.github.io/python-data-analysis-blog/index.html</loc>
     <lastmod>2026-11-23T03:13:21.052Z</lastmod>
   </url>
   <url>
-    <loc>https://giovanna-nunes.github.io/MYBLOG/posts/cotacao-dolar/index.html</loc>
+    <loc>https://giovanna-nunes.github.io/python-data-analysis-blog/posts/cotacao-dolar/index.html</loc>
     <lastmod>2026-11-23T02:59:51.972Z</lastmod>
   </url>
   <url>
-    <loc>https://giovanna-nunes.github.io/MYBLOG/posts/regressao-linear/index.html</loc>
+    <loc>https://giovanna-nunes.github.io/python-data-analysis-blog/posts/regressao-linear/index.html</loc>
     <lastmod>2026-11-23T02:59:38.949Z</lastmod>
   </url>
 </urlset>

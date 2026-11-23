@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Python Data Analysis Blog</title>
-<link>https://giovanna-nunes.github.io/MYBLOG/</link>
-<atom:link href="https://giovanna-nunes.github.io/MYBLOG/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://giovanna-nunes.github.io/python-data-analysis-blog/</link>
+<atom:link href="https://giovanna-nunes.github.io/python-data-analysis-blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Blog acadêmico de análise de dados com Python, integração de APIs, visualização de dados e regressão linear.</description>
 <generator>quarto-1.11.9</generator>
 <lastBuildDate>Thu, 20 Nov 2025 03:00:00 GMT</lastBuildDate>
 <item>
   <title>Atividade 3</title>
   <dc:creator>lineee </dc:creator>
-  <link>https://giovanna-nunes.github.io/MYBLOG/posts/regressao-linear/</link>
+  <link>https://giovanna-nunes.github.io/python-data-analysis-blog/posts/regressao-linear/</link>
   <description><![CDATA[ 
 
 
@@ -26,7 +26,7 @@ Regressão Linear
 </h1>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://giovanna-nunes.github.io/MYBLOG/posts/regressao-linear/linear.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<p><img src="https://giovanna-nunes.github.io/python-data-analysis-blog/posts/regressao-linear/linear.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <br> <br>
@@ -261,7 +261,7 @@ font-style: inherit;">"grafico.png"</span>)</span>
 <p>Após organizar os dados e montar a matriz do modelo, apliquei diretamente a fórmula matricial da regressão linear para obter os coeficientes da reta, representados pelo intercepto e pela inclinação. Com esses valores calculados, foi criado um gráfico mostrando os pontos fornecidos e a linha ajustada. O código utilizado faz exatamente o que foi pedido: calcula os parâmetros da regressão a partir da álgebra matricial e gera um gráfico final que permite visualizar a tendência da relação entre as variáveis.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://giovanna-nunes.github.io/MYBLOG/posts/regressao-linear/RegressaoLinear.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<p><img src="https://giovanna-nunes.github.io/python-data-analysis-blog/posts/regressao-linear/RegressaoLinear.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 
@@ -270,14 +270,14 @@ font-style: inherit;">"grafico.png"</span>)</span>
  ]]></description>
   <category>linear</category>
   <category>código</category>
-  <guid>https://giovanna-nunes.github.io/MYBLOG/posts/regressao-linear/</guid>
+  <guid>https://giovanna-nunes.github.io/python-data-analysis-blog/posts/regressao-linear/</guid>
   <pubDate>Thu, 20 Nov 2025 03:00:00 GMT</pubDate>
-  <media:content url="https://giovanna-nunes.github.io/MYBLOG/posts/regressao-linear/RegressaoLinear.jpg" medium="image" type="image/jpeg" height="79" width="144"/>
+  <media:content url="https://giovanna-nunes.github.io/python-data-analysis-blog/posts/regressao-linear/RegressaoLinear.jpg" medium="image" type="image/jpeg" height="79" width="144"/>
 </item>
 <item>
   <title>Atividade 2</title>
   <dc:creator>Vrum vrum</dc:creator>
-  <link>https://giovanna-nunes.github.io/MYBLOG/posts/frota-onibus/</link>
+  <link>https://giovanna-nunes.github.io/python-data-analysis-blog/posts/frota-onibus/</link>
   <description><![CDATA[ 
 
 
@@ -289,7 +289,7 @@ Monitoramento de Frota de Ônibus
 </h1>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://giovanna-nunes.github.io/MYBLOG/posts/frota-onibus/onibus.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<p><img src="https://giovanna-nunes.github.io/python-data-analysis-blog/posts/frota-onibus/onibus.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <br> <br>
@@ -1041,7 +1041,7 @@ font-style: inherit;">"mapa_linha_N140-11.html"</span>)</span></code></pre></div
 <p>O desenvolvimento desta atividade permitiu aplicar conhecimentos de consumo de APIs REST, manipulação de dados geográficos e visualização interativa com Python, demonstrando como informações externas podem ser transformadas em representações visuais úteis para análise.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://giovanna-nunes.github.io/MYBLOG/posts/frota-onibus/frota.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<p><img src="https://giovanna-nunes.github.io/python-data-analysis-blog/posts/frota-onibus/frota.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <section id="mapa-interativo-da-frota" class="level2">
@@ -1058,14 +1058,14 @@ font-style: inherit;">"mapa_linha_N140-11.html"</span>)</span></code></pre></div
  ]]></description>
   <category>ônibus</category>
   <category>código</category>
-  <guid>https://giovanna-nunes.github.io/MYBLOG/posts/frota-onibus/</guid>
+  <guid>https://giovanna-nunes.github.io/python-data-analysis-blog/posts/frota-onibus/</guid>
   <pubDate>Wed, 19 Nov 2025 03:00:00 GMT</pubDate>
-  <media:content url="https://giovanna-nunes.github.io/MYBLOG/posts/frota-onibus/frota.png" medium="image" type="image/png" height="96" width="144"/>
+  <media:content url="https://giovanna-nunes.github.io/python-data-analysis-blog/posts/frota-onibus/frota.png" medium="image" type="image/png" height="96" width="144"/>
 </item>
 <item>
   <title>Atividade 1</title>
   <dc:creator>Money money</dc:creator>
-  <link>https://giovanna-nunes.github.io/MYBLOG/posts/cotacao-dolar/</link>
+  <link>https://giovanna-nunes.github.io/python-data-analysis-blog/posts/cotacao-dolar/</link>
   <description><![CDATA[ 
 
 
@@ -1077,7 +1077,7 @@ Cotação do Dólar por Período
 </h1>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://giovanna-nunes.github.io/MYBLOG/posts/cotacao-dolar/dolar.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<p><img src="https://giovanna-nunes.github.io/python-data-analysis-blog/posts/cotacao-dolar/dolar.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <br> <br>
@@ -1310,7 +1310,7 @@ font-style: inherit;">"062011"</span>)</span></code></pre></div></div>
 <p>Depois de pegar as cotações, organizar em tabela e gerar o gráfico, fica bem mais fácil enxergar como o dólar se comportou durante o mês analisado. No meu caso, junho de 2011. Essa atividade ajudou bastante a praticar requisições, manipulação de datas e o uso do Plotly para criar gráficos. Tudo isso vai ser útil nas próximas partes do trabalho <br></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://giovanna-nunes.github.io/MYBLOG/posts/cotacao-dolar/download.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<p><img src="https://giovanna-nunes.github.io/python-data-analysis-blog/posts/cotacao-dolar/download.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 
@@ -1319,9 +1319,9 @@ font-style: inherit;">"062011"</span>)</span></code></pre></div></div>
  ]]></description>
   <category>dólar</category>
   <category>código</category>
-  <guid>https://giovanna-nunes.github.io/MYBLOG/posts/cotacao-dolar/</guid>
+  <guid>https://giovanna-nunes.github.io/python-data-analysis-blog/posts/cotacao-dolar/</guid>
   <pubDate>Tue, 18 Nov 2025 03:00:00 GMT</pubDate>
-  <media:content url="https://giovanna-nunes.github.io/MYBLOG/posts/cotacao-dolar/download.jpg" medium="image" type="image/jpeg" height="96" width="144"/>
+  <media:content url="https://giovanna-nunes.github.io/python-data-analysis-blog/posts/cotacao-dolar/download.jpg" medium="image" type="image/jpeg" height="96" width="144"/>
 </item>
 </channel>
 </rss>

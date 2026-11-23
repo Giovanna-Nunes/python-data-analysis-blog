@@ -6,13 +6,13 @@ project:
 
 website:
   description: "Blog acadêmico de análise de dados com Python, integração de APIs, visualização de dados e regressão linear."
-  site-url: https://giovanna-nunes.github.io/MYBLOG/
+  site-url: https://giovanna-nunes.github.io/python-data-analysis-blog/
   title: "Python Data Analysis Blog"
   navbar:
     right:
       - sobre.qmd
       - icon: github
-        href: https://github.com/Giovanna-Nunes/MYBLOG
+        href: https://giovanna-nunes.github.io/python-data-analysis-blog/
 format:
   html:
     theme:
