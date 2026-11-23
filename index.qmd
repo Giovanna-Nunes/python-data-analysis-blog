@@ -1,6 +1,7 @@
 
 ---
-title: "My Blog"
+title: "Meu caderno de dados"
+subtitle: "Explorando Python, APIs e visualização de dados por meio de atividades acadêmicas."
 
 listing:
   contents:
@@ -27,3 +28,9 @@ page-layout: full
 title-block-banner: true
 ---
 
+
+::: {.blog-intro}
+## Atividades acadêmicas
+
+Três estudos práticos, com códigos comentados, explicações e resultados. Escolha uma atividade para explorar.
+:::

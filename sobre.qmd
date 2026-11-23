@@ -1,6 +1,6 @@
 ---
 title: "Giovanna Nunes Alexandre"
-image: profile.jpg
+image: me.jpg
 about:
   template: jolla
   links:

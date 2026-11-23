@@ -3,16 +3,21 @@ project:
   output-dir: docs
   resources:
     - posts/frota-onibus/mapa_linha_N140-11.html
+    - cat-mark.svg
 
 website:
   description: "Blog acadêmico de análise de dados com Python, integração de APIs, visualização de dados e regressão linear."
   site-url: https://giovanna-nunes.github.io/python-data-analysis-blog/
   title: "Python Data Analysis Blog"
+  page-footer:
+    left: "Python · Quarto · Análise de dados"
+    right: "[GitHub](https://github.com/Giovanna-Nunes/python-data-analysis-blog)"
   navbar:
     right:
-      - sobre.qmd
+      - text: Sobre mim
+        href: sobre.qmd
       - icon: github
-        href: https://giovanna-nunes.github.io/python-data-analysis-blog/
+        href: https://github.com/Giovanna-Nunes/python-data-analysis-blog
 format:
   html:
     theme:
