@@ -1,10 +1,11 @@
+import os
 import requests
 import folium
 from folium import Map, CircleMarker, Popup
 import statistics
 
 # 1. Meu token
-SPTRANS_TOKEN = "deca79917d3e50d27a89803c19b203e9ec1f634558ee08f5d0c17c006c39c5c5"
+TOKEN = os.getenv("SPTRANS_TOKEN")
 
 # 2. Linha que escolhi - Terminal Pirituba a Vila Mirante (Linha Noturna)
 CODIGO_LINHA = "N140-11"
@@ -141,4 +142,4 @@ def construir_mapa_linha(token, codigo_linha_input, salvar_html="mapa_frota.html
 
 # 5. Execução
 if __name__ == "__main__":
-    construir_mapa_linha(SPTRANS_TOKEN, CODIGO_LINHA, salvar_html="mapa_linha_N140-11.html")
+    construir_mapa_linha(TOKEN, CODIGO_LINHA, salvar_html="mapa_linha_N140-11.html")

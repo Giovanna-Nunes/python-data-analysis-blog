@@ -1,10 +1,13 @@
 project:
   type: website
+  output-dir: docs
+  resources:
+    - posts/frota-onibus/mapa_linha_N140-11.html
 
 website:
-  description: "A blog built with Quarto"
-  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
-  title: "Trabalho Individual"
+  description: "Blog acadêmico de análise de dados com Python, integração de APIs, visualização de dados e regressão linear."
+  site-url: https://giovanna-nunes.github.io/MYBLOG/
+  title: "Python Data Analysis Blog"
   navbar:
     right:
       - sobre.qmd

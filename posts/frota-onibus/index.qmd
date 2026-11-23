@@ -22,13 +22,14 @@ Com essa ideia em mente, comecei organizando o código por etapas: primeiro veri
 A partir dessas orientações, segue o código:
 
 ```python
+import os
 import requests
 import folium
 from folium import Map, CircleMarker, Popup
 import statistics
 
 # 1. Meu token
-SPTRANS_TOKEN = "deca79917d3e50d27a89803c19b203e9ec1f634558ee08f5d0c17c006c39c5c5"
+TOKEN = os.getenv("SPTRANS_TOKEN")
 
 # 2. Linha que escolhi - Terminal Pirituba a Vila Mirante (Linha Noturna)
 CODIGO_LINHA = "N140-11"
@@ -172,12 +173,32 @@ if __name__ == "__main__":
 Finalizando a atividade
 </div>
 
-O programa realiza a autenticação por meio do `token fornecido`, faz a busca da linha informada pelo usuário e obtém automaticamente o código interno (CL) necessário para consultar os demais dados da API. No caso deste trabalho, a linha utilizada foi `N140-11` (Terminal Pirituba a Vila Mirante - Linha Noturna), e o sistema identifica corretamente seu código interno antes de seguir para as próximas etapas.
+O programa foi desenvolvido para realizar a autenticação na API Olho Vivo da SPTrans, consultar informações de uma linha de ônibus e representar os dados obtidos em um mapa interativo.
 
-Após a autenticação bem-sucedida, o código consulta todas as paradas oficiais da linha, recuperando informações como `nome`, `endereço`, `coordenadas` e `código da parada`. Em seguida, obtém também os veículos em `operação naquele momento`, incluindo posição `geográfica`, `placa`, `horário da última atualização` e `status de atividade`.
+Para esta atividade, foi selecionada a linha N140-11 (Terminal Pirituba – Vila Mirante). A aplicação identifica o código interno da linha (CL), necessário para consultar suas paradas e as posições dos veículos.
 
-Por fim, o programa gera automaticamente um mapa interativo, utilizando a biblioteca `Folium`. No mapa, cada parada da `linha é representada por um marcador azul`, enquanto os `ônibus aparecem como marcadores vermelhos`, ambos com pop-ups informativos. Também é adicionada uma legenda para facilitar a visualização e identificar os elementos exibidos.
+Com essas informações, utilizei a biblioteca Folium, em Python, para construir um mapa interativo. As paradas são representadas por marcadores azuis, enquanto os ônibus são identificados por marcadores vermelhos. Os marcadores permitem visualizar informações adicionais sobre os elementos apresentados.
 
-O arquivo final, salvo em `HTML`, pode ser aberto em qualquer navegador e permite ao usuário navegar pelo mapa, visualizar as paradas e acompanhar as posições atuais dos veículos. Dessa forma, o código atende plenamente ao objetivo da atividade, e gera o que foi solicitado.
+O mapa foi exportado para um arquivo HTML, permitindo que o resultado da atividade seja visualizado diretamente pelo navegador, sem a necessidade de executar novamente o código Python ou realizar uma nova autenticação na API.
+
+É importante destacar que as posições dos veículos apresentadas no mapa correspondem aos dados obtidos durante a execução original da atividade. Portanto, essa versão funciona como uma demonstração do monitoramento realizado, e não como um sistema de rastreamento em tempo real.
+
+O desenvolvimento desta atividade permitiu aplicar conhecimentos de consumo de APIs REST, manipulação de dados geográficos e visualização interativa com Python, demonstrando como informações externas podem ser transformadas em representações visuais úteis para análise.
 
 ![](frota.png){fig-align="center"}
+
+## Mapa Interativo da Frota
+
+O mapa abaixo apresenta as paradas e as posições dos ônibus da linha N140-11 registradas durante a realização da atividade.
+
+Os marcadores azuis representam as paradas, enquanto os vermelhos representam os ônibus.
+
+<iframe
+  src="mapa_linha_N140-11.html"
+  width="100%"
+  height="550"
+  style="border: 1px solid #ddd; border-radius: 8px;"
+  title="Mapa interativo da linha N140-11">
+</iframe>
+
+**Observação:** os dados representam um registro da atividade acadêmica e não são atualizados em tempo real.

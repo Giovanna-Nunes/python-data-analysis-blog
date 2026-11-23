@@ -1,2 +1,24 @@
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+
+# Ambientes virtuais
+.venv/
+venv/
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+
+# Arquivos temporários do Quarto
+.quarto/
+
+# Site gerado pelo Quarto
+_site/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
 /.quarto/
 **/*.quarto_ipynb

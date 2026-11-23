@@ -11,4 +11,3 @@ about:
 ---
 
 <p>Engenharia da computação</p>
-<p>RA: 224928</p>
