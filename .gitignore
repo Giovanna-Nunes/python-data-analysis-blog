@@ -22,3 +22,4 @@ _site/
 Thumbs.db
 /.quarto/
 **/*.quarto_ipynb
+/docs/_site/
